@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nuevo Pedido</title>
+	<title>dreem.net</title>
+	<link rel="shortcut icon" href="logo.png" />
+	<meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="frulac.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row ">
+				<div class="col-xs-6 col-ms-6 col-md-3">
+					<a href="pedidos.html"><img class="home"  src="logo.png"></a></div>
+				<div class="col-xs-0 col-ms-0 col-md-6">
+				</div>
+				<div class="vcenter col-xs-6 col-ms-6 col-md-3 ">
+					<a class="btn-default ">Tacos Provi</a>
+					<img class="logo" src="http://www.tacoslosprovi.com/wp-content/uploads/2015/04/logo_c_main.png">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<ul class="nav nav-tabs">
+						  <li class="active"><a href="pedidos.html">Nuevo Pedido</a></li>
+						  <li><a href="#">Pedidos Anteriores</a></li>
+						  <li><a href="#">Mi cuenta</a></li>
+						</ul>
+		</div>
+	</header>
+		<div class="container">
+			<div class="row ">
+				<div class="col-xs-12 col-md-6">
+					<label for="Horario">Horario de entrega:
+					</label>
+					<div class="form-inline" >
+						<label>Entre</label>
+						<input class="form-control" type="time" id="Hora1">
+						<label>y</label>
+						<input class="form-control" type="time" id="Hora1">
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-3">
+					<label for="Fecha">Fecha de entrega:</label>
+					<input class="form-control" type="date" id="Correo"> 
+				</div>
+				<div class="col-xs-12 col-md-3">
+					<label for="Direción">Direción de entrega:</label>
+					<input class="form-control" type="text" id="Direction" placeholder="Aguilar figueroa 55 int ">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row ">
+			<label>Productos</label>
+			</div>
+			<div class="row">
+				<div class="col-xs-11">
+				<input class="form-control" type="text" id="Direction" placeholder="ej.''2kg de brocoli grande'' o ''Limon sin semilla 2kg''">
+				</div>
+				<div class="col-xs-1">
+				<a class="btn btn-primary " href="SingUp.html" role="butto">+</a>
+				</div>
+			</div>
+			<div class="row text-center">
+			<a href="">Usar pedido anterior como plantilla</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="table-responsive">
+			  <table class="table">
+			    <thead>
+			      <tr>
+			        <th>Num</th>
+			        <th>Producto</th>
+			        <th>Cantidad</th>
+			        <th>Precio</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			        <td>1</td>
+			        <td>Brocoli LK</td>
+			        <td>8kg</td>
+			        <td>$200</td>
+			      </tr>
+			      			      <tr>
+			        <td>2</td>
+			        <td>Tomate bola</td>
+			        <td>1kg</td>
+			        <td>$20</td>
+			      </tr>
+			    </tbody>
+			  </table>
+		</div>
+	</div>
+</body>
+</html>
